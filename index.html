@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Ticaret</title>
+</head>
+<body>
+    
+    <header>
+        <h1>E-Ticaret</h1>
+        <input type="text" placeholder="Ürün ismi giriniz...">
+        <div>
+            <button id="sepet-btn">Sepet</button>
+            <button>Kayıt Ol</button>
+            <button>Giriş Yap</button>
+        </div>
+    </header>
+
+    <!-- ana içerik -->
+    <main>
+        <!-- kategoriler -->
+        <section id="categoyr-sec">
+            <h1>Kategoriler</h1>
+            <div class="categories"></div>
+        </section>
+        <!-- ürünler -->
+        <section id="pruducts-sec">
+            <h1>Ürünler</h1>
+            <div class="products">
+                <!-- <div class="product">
+                    <img src="https://picsum.photos/640/640?r=8259">
+                    <p>recycled metal hat</p>
+                    <p>shoes</p>
+                    <div class="product-info">
+                        <p>777$</p>
+                        <button>Spete Ekle</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- modal -->
+    <div class="modal-wrapper active">
+        <div class="modal-inner">
+            <div class="icon"><img src="/images/close.png" id="close-btn"></div>
+            <div class="list"></div>
+            <p class="total-p">
+                Toplam
+                <span class="total-span">500</span>
+                $
+            </p>
+        </div>
+    </div>
+
+    <script src="/main.js" type="module"></script>
+</body>
+</html>
