@@ -29,3 +29,4 @@ temel sepet işlevine sahip olan e-ticaret projesi
 - sepetteki ürünleri ekrana basarken fiyat değerlerini topla ve bir değişkene aktar
 - - bu işlemi yaparken elemanın miktarını unutma
 - - ürün sepetten kaldırılınca toplam fiyattan eksilt
+![](screen.gif)
