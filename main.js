@@ -40,7 +40,17 @@ const closeBtn = document.querySelector("#close-btn")
 const modal = document.querySelector(".modal-wrapper")
 const basketList = document.querySelector(".list")
 const modalInfo = document.querySelector(".total-span")
+const iconClose = document.querySelector(".icon-close")
+const modalLogin = document.querySelector(".modal-login")
+const loginOpen = document.querySelector("#login-open")
 
+iconClose.addEventListener("click", ()=>{
+  modalLogin.style.display = "none"
+})
+
+loginOpen.addEventListener("click",()=>{
+  modalLogin.style.display= "grid"
+})
 
 sepetBtn.addEventListener("click",()=>{
     modal.classList.add("active")

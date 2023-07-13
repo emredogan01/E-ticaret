@@ -14,12 +14,13 @@
         <div>
             <button id="sepet-btn">Sepet</button>
             <button>Kayıt Ol</button>
-            <button>Giriş Yap</button>
+            <button id="login-open">Giriş Yap</button>
         </div>
     </header>
 
     <!-- ana içerik -->
     <main>
+        
         <!-- kategoriler -->
         <section id="categoyr-sec">
             <h1>Kategoriler</h1>
@@ -42,8 +43,9 @@
         </section>
     </main>
 
+
     <!-- modal -->
-    <div class="modal-wrapper active">
+    <div class="modal-wrapper">
         <div class="modal-inner">
             <div class="icon"><img src="/images/close.png" id="close-btn"></div>
             <div class="list"></div>
@@ -54,6 +56,24 @@
             </p>
         </div>
     </div>
+
+    <!-- modal 2 -->
+    <div class="modal-login">
+        <div class="login-inner">
+            <div class="icon-close">
+                <img src="/images/close.png" id="close-btn"></div>
+            <div class="list"></div>
+            <form>
+                <label>E-Ticaret</label>
+                <input type="text" placeholder="Kullanıcı Adınız">
+                <input type="password" placeholder="Şifreniz">
+                <button>Giriş</button>
+            </form>
+        </div>
+    </div>
+
+    
+
 
     <script src="/main.js" type="module"></script>
 </body>
